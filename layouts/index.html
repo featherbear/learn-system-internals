@@ -37,7 +37,7 @@
         {{ range sort .Site.RegularPages.ByDate }}
         <div data-title="{{.Title}}" class="item column is-one-quarter">
           <a href="{{ .Permalink }}">
-            <p class="notification is-info">
+          <p class="notification is-info" {{ if (isset .Params "tilecolour" ) }} style="background-color: {{ print .Params.tilecolour | safeCSS }}" {{ end }}>
               {{.Title}}
               <!-- TODO: Other meta (date, tags, category) -->
             </p>
@@ -146,6 +146,7 @@
           "transitionDuration": "0.2s",
           "stagger": 40,
         });
+        isotope.arrange()
 
         function doFilter(query) {
           let regex = new RegExp(query, 'i');
