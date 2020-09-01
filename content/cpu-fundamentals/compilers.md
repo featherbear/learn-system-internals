@@ -6,6 +6,12 @@ date: 2020-09-01T13:13:55+10:00
 tileColour: "#8BBEE8"
 ---
 
+{{< slide class="center" >}}
+
+# Compilers 
+
+---
+
 ## The Language of the CPU
 
 {{% section %}}

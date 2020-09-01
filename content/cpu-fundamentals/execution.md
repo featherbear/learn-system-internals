@@ -7,6 +7,12 @@ tileColour: "#8BBEE8"
 
 ---
 
+{{< slide class="center" >}}
+
+# Execution
+
+---
+
 ## CPU Speed
 
 The speed of a CPU is determined by its clock speed.  
