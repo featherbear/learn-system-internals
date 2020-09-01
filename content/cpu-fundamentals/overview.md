@@ -71,15 +71,15 @@ More on this later...
 
 ---
 
-## Flag Registers
+## Status Registers
 
-A CPU would contain a flag register - that holds various attributes about the CPU's current state. These are used by future instructions
+A CPU would contain a status register - that holds various attributes/flags about the CPU's current state. These are used by future instructions
 
 * e.g. `30-30` => `zero flag` = `1`
 * e.g. `30-15` => `zero flag` = `0`
 * e.g. `30-50` => `sign flag` = `1`
 
-Each different flag is (usually) 1-bit long, and such a 32-bit flag register can hold 32 different attributes.
+Each different flag is (usually) 1-bit long, and such a 32-bit status register can hold 32 different flags.
 
 ---
 

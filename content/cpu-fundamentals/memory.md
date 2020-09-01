@@ -232,11 +232,21 @@ It is called a stack due to how it is accessed.
 
 ---
 
-The stack contains the parameters and temporary variables that a function will use to complete its execution.  
+The stack frame contains the parameters and temporary variables that a function will use to complete its execution.  
 
-The stack also contains data related to what the CPU should do after the function finishes, such as values of the CPU registers prior to the function being called.  
+The stack frame also contains data related to what the CPU should do after the function finishes, such as values of the CPU registers prior to the function being called.  
 
 This includes the "return address" that the CPU will go to after the function is finished.
+
+---
+
+### Stack Pointer
+
+The stack pointer register contains the address of the end of the stack.  
+
+Depending on the CPU architecture, this address may be the address to the last stored value, or the address after the last value.
+
+When memory is allocated/released in the stack (either a variable, or an entire stack frame), the address in the stack pointer changes.  
 
 {{% /section %}}
 
