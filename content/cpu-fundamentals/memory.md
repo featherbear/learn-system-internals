@@ -45,7 +45,7 @@ As digital circuits (i.e. computers) only deal with binary data (1s and 0s) - th
 
 ASCII is a representation of the common characters used throughout the world (i.e the keys on your keyboard)
 
-![](http://www.asciitable.com/index/asciifull.gif)
+![](https://www.asciitable.com/index/asciifull.gif)
 
 ---
 
