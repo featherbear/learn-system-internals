@@ -18,10 +18,6 @@ jobs:
       with:
         hugo-version: '0.58.2'
 
-    # Probably edit this for your own theme
-    - name: Clone theme
-      run: cd themes && git clone https://github.com/dzello/reveal-hugo/
-
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir -d public
 
