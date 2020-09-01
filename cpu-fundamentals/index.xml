@@ -13,7 +13,10 @@ Whilst easy to understand by us humans, the computer itself won&amp;rsquo;t unde
 When we perform an arithmetic operation, its operands and outputs are stored in the memory
 When we press a key, a flag in the memory is changed.
 When we launch a program, that program is loaded into memory!
-Representation of Data As digital circuits (i.e. computers) only deal with binary data (1s and 0s) - there exists different encoding schemas to represent different data types.</description></item><item><title>The CPU</title><link>/cpu-fundamentals/overview/</link><pubDate>Tue, 01 Sep 2020 13:12:54 +1000</pubDate><guid>/cpu-fundamentals/overview/</guid><description>What&amp;rsquo;s in a CPU? Inside a CPU is a group of different microchips that collectively work together to serve the functionality of a CPU.
+Endian-ness Multi-byte values (i.e. values greater than 255) can be stored to the memory in two different ways.</description></item><item><title>Representation of Data</title><link>/cpu-fundamentals/representation-of-data/</link><pubDate>Tue, 01 Sep 2020 13:13:32 +1000</pubDate><guid>/cpu-fundamentals/representation-of-data/</guid><description>Representation of Data As digital circuits (i.e. computers) only deal with binary data (1s and 0s) - there exists different encoding schemas to represent different data types.
+ASCII ASCII is a representation of the common characters used throughout the world (i.e the keys on your keyboard)
+Positive Integers Positive integers are represented as their binary representation - bound to the data type assigned
+i.e. the byte 81 == 0b01010001</description></item><item><title>The CPU</title><link>/cpu-fundamentals/overview/</link><pubDate>Tue, 01 Sep 2020 13:12:54 +1000</pubDate><guid>/cpu-fundamentals/overview/</guid><description>What&amp;rsquo;s in a CPU? Inside a CPU is a group of different microchips that collectively work together to serve the functionality of a CPU.
 I/O To interact with other devices on the system, the CPU contains input and output lanes which are physically connected (via &amp;lsquo;busses&amp;rsquo; on the circuit board) to those devices.
 I/O can include keyboards, mice, monitors, speakers.
 Registers Registers are data storages that lie in the CPU.</description></item></channel></rss>
