@@ -146,7 +146,7 @@
           "transitionDuration": "0.2s",
           "stagger": 40,
         });
-        isotope.arrange()
+        window.addEventListener('load', () => isotope.arrange());
 
         function doFilter(query) {
           let regex = new RegExp(query, 'i');
