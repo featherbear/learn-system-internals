@@ -1,7 +1,9 @@
 title = "Learn System Internals"
 languageCode = "en-au"
 
+baseurl = ".."
 relativeURLs = true
+
 theme = "reveal-hugo"
 
 [markup.goldmark.renderer]
