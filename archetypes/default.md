@@ -8,7 +8,7 @@ draft: true
 
 {{< slide class="center" >}}
 
-# "{{ replace .Name "-" " " | title }}"
+## {{ replace .Name "-" " " | title }}
 
 ---
 
