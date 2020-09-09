@@ -162,9 +162,9 @@ This memory space can be considered as the 'global scope' region, where all func
 
 The heap is located after the text region of the memory (where the program instructions are loaded) - i.e. near the start of the memory address space.
 
----
+<!-- --- -->
 
-## Memory Allocation (in C)
+<!-- ## Memory Allocation (in C) -->
 
 <!-- #include <stdio.h>
 
