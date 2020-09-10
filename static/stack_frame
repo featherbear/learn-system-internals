@@ -1,0 +1,35 @@
+
+
+            push ret                                   +--------------+
+            push ebp                                   |   memory     |
+            push esp                                   +--------------+
+            push eax                                   | ret          |
+            push ebx                                   | ebp          |
+            push ecx                                   | esp          |
+            push edx                                   | eax,ebx,ecx  |
+                                                       | edx, ...     |
+                                                       |              |
+                                                       +--------------+
+ +    +-------------------------------------------------+
+ |    | return address                                  |
+ |    +-------------------------------------------------+
+ |    | stored registers                                |
+ |    |   saved EBP                                     |
+ |    |   saved ESP                                     |
+ |    |   saved EAX, EBX, ECX, EDX ...                  |
+ |    |                                                 |
+ v    +-------------------------------------------------+  +
+      | local variables                                 |  |
+      |   a   - 4                                       |  |
+      |   b   - 4                                       |  |
+      |   c   - 4                                       |  |
+      |   d   - 4                                       |  |
+      +-------------------------------------------------+  v
+
+         pop edx
+         pop ecx
+         pop ebx
+         pop eax
+         pop esp
+         pop ebp
+         pop ret
