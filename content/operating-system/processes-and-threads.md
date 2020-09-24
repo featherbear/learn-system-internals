@@ -40,7 +40,7 @@ The kernel keeps track of all PCBs in a process table
 
 ---
 
-### Process State
+### Process Run State
 
 A process can be in one of the following states
 
