@@ -12,7 +12,7 @@ tileColour: "#D7A9E3"
 
 ---
 
-## Access Management
+## Time Management
 
 <!-- https://featherbear.cc/UNSW-COMP3231/post/processes-and-threads/ -->
 
