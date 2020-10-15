@@ -151,7 +151,7 @@ When a virtual address is requested by a process, the MMU performs a page table 
 /******************* C/C++ pseudocode **********************/
 
 #define FRAME_SIZE 4096
-#define PAGE_SIZE  PAGE_SIZE
+#define PAGE_SIZE  FRAME_SIZE
 
 pageNumber   = vaddr / PAGE_SIZE;        // Page number
 offset       = vaddr % PAGE_SIZE;        // Address offset
