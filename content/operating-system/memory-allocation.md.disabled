@@ -1,0 +1,41 @@
+---
+title: "Memory Allocation"
+layout: "bundle"
+outputs: ["Reveal"]
+date: 2020-09-01T13:14:47+10:00
+tileColour: "#D7A9E3"
+---
+
+{{< slide class="center" >}}
+
+## Memory Allocation
+
+---
+
+## Fragmentation
+
+Fragmentation refers to 'unused and unusable space' in a memory region
+
+* External Fragmentation
+  * A   |   B
+
+* External Fragmentation
+* Internal Fragmentation
+* Static Memory Management
+  * Simple
+  * First Fit
+  * Any Fit
+* Dynamic Partitioning
+  * First Fit
+  * Next Fit
+  * Best Fit
+
+
+
+<!-- https://featherbear.cc/UNSW-COMP3231/post/virtual-memory-management/ -->
+<!-- https://featherbear.cc/UNSW-COMP3231/post/translation-lookaside-buffer/ -->
+<!-- https://featherbear.cc/UNSW-COMP3231/post/virtual-memory/ -->
+<!-- https://featherbear.cc/UNSW-COMP3231/post/memory-management/ -->
+<!-- https://featherbear.cc/UNSW-COMP3231/post/memory/ -->
+
+# Stack and Heap Allocation
