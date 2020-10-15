@@ -36,7 +36,7 @@
 </code></pre><p>Page tables remove the requirement for a process to need a contiguous space of memory, which can be difficult to allocate with lots of programs running.</p></section><section><h3 id=notes>Notes</h3><ul><li><p>Each process has their own page table, which allows the same memory address &lsquo;value&rsquo; / page number to be mapped to a different physical memory frame.</p></li><li><p><code>PAGE_SIZE == FRAME_SIZE</code></p></li></ul></section></section><section><h2 id=page-table-translation>Page Table Translation</h2><section data-shortcode-section><p><code>vaddr -&gt; MMU -&gt; paddr</code></p><p>When a virtual address is requested by a process, the MMU performs a page table lookup</p><pre><code class=language-c>/******************* C/C++ pseudocode **********************/
 
 #define FRAME_SIZE 4096
-#define PAGE_SIZE  PAGE_SIZE
+#define PAGE_SIZE  FRAME_SIZE
 
 pageNumber   = vaddr / PAGE_SIZE;        // Page number
 offset       = vaddr % PAGE_SIZE;        // Address offset
